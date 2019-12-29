@@ -1,19 +1,26 @@
 #title {
-  font-size: 14px;
+  font-size: 54px;
   -webkit-font-smoothing: antialiased;
-  color: #0F0FAF;
+  color: #FFFFFF;
 
 }
 
 #top  {
     background-color: #262f40;
-    background-image: url(""),radial-gradient(#33334d, #1f2533);
+    background-image: url("images/mandelbrot.jpg"),radial-gradient(#33334d, #1f2533);
     background-repeat: no-repeat;
     background-position: top;
     min-height: 400px;
     padding: 0;
-    padding-top: 0px;
+    padding-top: 30px;
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
+}
+
+#content {
+  color: #234123;
+}
+#left {
+  float: left;
 }
